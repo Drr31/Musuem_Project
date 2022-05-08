@@ -1,0 +1,216 @@
+#logo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-left: 50px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Fjalla One', sans-serif;
+	background-image: url(images/photos/fond.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header #lg ul{
+	float: right;
+	margin-right: 20px;
+}
+header #lg ul li{
+	display: inline-block;
+}
+header #lg ul li a{
+	background-color: #de5b1a;
+	border-radius: 8px;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
+nav ul li a:hover{
+	color: black;	
+}
+header nav ul li{
+	display: inline-block;
+	text-align: center;
+	padding-right: 5%;
+	padding-left: 5%
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+	margin-top: 8px ;	
+}
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+header nav{
+	background-color: #de5b1a;
+	text-align: center;
+}
+/*barre de recherche*/
+input{
+	outline: none;
+}
+input[type=search]{
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+input[type=search]{
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+#demo-2 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+h1{	
+	text-align: center;	
+	margin-top: 600px;
+}
+footer{
+	height: 230px;
+	background-color: black;
+	color: white;
+}
+footer a img{
+	float: left;
+	padding-left: 65px;
+	padding-top: 30px;
+}
+footer #pictos{
+	float: right;
+	margin-right: 50px;
+}
+footer #pictos a img{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+footer p{
+	text-align: center;
+}
+.video{
+	margin-top: -16px;
+	position: absolute;
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+}
+.accueil{	
+	position: absolute;
+	padding-top: 80px;
+	margin-left: 0px;
+}
+h2{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.map{	
+	margin-top: 100px;
+	margin-left:80px ;
+	padding-bottom: 100px;
+}
+.contact{	
+	margin-right: 200px;
+	float: right;
+	font-size: 20px;
+	margin-top: 200px;
+	text-align: center;	
+}
+h3{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 100;
+	color: grey;
+	text-decoration: underline;
+}
+section{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.droite img{
+	float: right;
+	margin-left: 200px;
+}
+.droite p{
+	margin-left: 30px;
+	text-align: justify;
+	font-size: 25px;
+}
+.droite{
+	margin-top: 50px;
+} 
+.gauche{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.droite h2{
+	margin-left: 30px;
+	text-align: right;
+}
+.gauche img{
+	float: left;
+	margin-right: 200px;
+}
+.gauche p{
+	margin-right: 30px;
+	font-size: 25px;
+	text-align: justify;
+}
+section h1{
+	font-size: 35px;
+	text-align: center;
+}
+.titre3{
+	margin-top: 200px;
+	text-align: center;
+}
+#expo img{
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 100px;
+}
+#soutien{
+	font-size: 25px;
+	color: grey;
+}
