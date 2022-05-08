@@ -1,0 +1,237 @@
+#logo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-left: 50px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Fjalla One', sans-serif;
+}
+header #lg ul{
+	float: right;
+	margin-right: 20px;
+}
+header #lg ul li{
+	display: inline-block;
+}
+header #lg ul li a{
+	background-color: #de5b1a;
+	border-radius: 8px;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
+nav ul li a:hover{
+	color: black;	
+}
+header nav ul li{
+	display: inline-block;
+	text-align: center;
+	padding-right: 5%;
+	padding-left: 5%
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+	margin-top: 8px ;	
+}
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+header nav{
+	background-color: #de5b1a;
+	text-align: center;
+}
+/*barre de recherche*/
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+#demo-2 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+footer{
+	height: 230px;
+	background-color: black;
+	color: white;
+}
+footer a img{
+	float: left;
+	padding-left: 65px;
+	padding-top: 30px;
+}
+footer #pictos{
+	float: right;
+	margin-right: 50px;
+}
+footer #pictos a img{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+footer p{
+	text-align: center;
+}
+
+h1{
+	font-size: 45px;
+	color: white;
+	background-color: #de5b1a;
+	padding: 8px;
+	margin-right: 1000px;
+}
+.formulaire{ 
+	margin-top: 100px;
+	padding-left: 200px;
+	padding-right: 100px;
+	text-align: justify;
+	width: 30%;
+}
+#reception{
+	padding-left: 200px;
+	padding-right: 100px;
+	text-align: justify;
+	width: 26%;
+}
+label {
+    display: inline-block;
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #888888;
+}
+label+input {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+input{
+	font-size: 20px;
+	border-left: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom-width: 1.5px;
+	border-bottom-color: #de5b1a;
+	border-bottom-style: solid;
+	margin-bottom: 10px;
+}
+.recap1{
+	padding-left: 40px;
+	margin-right: 200px;
+	padding-right: 20px;
+	text-align: justify;
+	width: 30%;
+	border-width: 1.5px;
+	border-color: #de5b1a;
+	border-style: solid;
+	float: right;
+	margin-top: -460px;
+	padding-top: 40px;
+}
+.recap2{
+	padding-left: 40px;
+	margin-right: 200px;
+	padding-right: 20px;
+	text-align: justify;
+	width: 30%;
+	border-width: 1.5px;
+	border-color: #de5b1a;
+	border-style: solid;
+	float: right;
+	margin-top: -170px;
+	padding-bottom: 60px;
+}
+#formalites{
+	padding-left: 200px;
+	padding-right: 200px;
+	text-align: center;
+	color: grey;
+}
+#formalites img{
+	padding-top: 5px;
+}
+#cryptogramme{
+	margin-left: 5px;
+	margin-right: 8px;
+}
+.recap1  h3{
+	border-top-width: 1.5px;
+	border-top-color: #de5b1a;
+	border-top-style: solid;
+	padding-top: 20px;
+	font-size: 23px;
+	color: #888888;
+}
+.recap1 h2{
+	font-size: 30px;
+}
+.recap2 h2{
+	font-size: 30px;	
+}
+table{
+	font-size: 18px;
+}
+.recap2 a{
+	text-decoration: none;
+	color: white;
+	background-color: #de5b1a;
+	border-radius: 20px;
+	padding: 10px;
+	margin-left: 80%;
+	font-size: 20px;
+}
+#reception h2{
+	font-size: 26px;
+}
+#carte{
+	float: right;
+	margin-right: 19%;
+}

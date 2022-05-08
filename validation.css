@@ -1,0 +1,28 @@
+body{
+	font-family: 'Fjalla One', sans-serif;
+}
+#partie p{
+	font-size: 20px;
+}
+#partie{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20%; 
+}
+#partie a{
+	text-decoration: none;
+	color: grey;
+}
+ #partie a:hover{
+	background-color: #ededed;
+	padding: 10px;
+	border-radius: 20px;
+}
+#partie h1{
+	background-color: #de5b1a;
+	padding: 10px;
+}
+.bleu{
+	color: blue;
+}

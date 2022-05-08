@@ -1,0 +1,160 @@
+#logo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-left: 50px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Fjalla One', sans-serif;
+
+}
+header #lg ul{
+	float: right;
+	margin-right: 20px;
+}
+header #lg ul li{
+	display: inline-block;
+}
+header #lg ul li a{
+	background-color: #de5b1a;
+	border-radius: 8px;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
+nav ul li a:hover{
+	color: black;	
+}
+
+header nav ul li{
+	display: inline-block;
+	text-align: center;
+	padding-right: 5%;
+	padding-left: 5%
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+	margin-top: 8px ;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+header nav{
+	background-color: #de5b1a;
+	text-align: center;
+}
+/*barre de recherche*/
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+#demo-2 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+footer{
+	height: 230px;
+	background-color: black;
+	color: white;
+}
+footer a img{
+	float: left;
+	padding-left: 65px;
+	padding-top: 30px;
+}
+footer #pictos{
+	float: right;
+	margin-right: 50px;
+}
+footer #pictos a img{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+footer p{
+	text-align: center;
+}
+#entete{
+	height: 500px;
+	margin-top: -16px;
+	background-image: url(../../images/photos/espace_sc.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h2{
+	text-align: center;
+	font-size: 35px;
+}
+#recherche table{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#recherche table tr td{
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: justify;
+}
+#doc table tr td p{
+	text-align: justify;
+	margin-left: 50px;
+	font-size: 20px;
+}
+#doc table{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#entete2{
+	height: 500px;
+	margin-top: -16px;
+	background-image: url(../../images/photos/espace_sc1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
