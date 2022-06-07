@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="ss/information_de_paiement.css">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="../images/logo/favicon.png"/>
+	
+	<title>Information de paiement</title>
+</head>
+<body>
+	<header>
+		<div id="lg">
+			<ul>
+				<li><a id="actif" href="../index_musee.html">FR</a></li>
+				<li><a href="../siteAnglais/index_en.html">EN</a></li>
+			</ul>
+		</div>
+		<div id="logo">
+				<a href="../index_musee.html"><img src="../images/logo/noir.png" height="150px"></a>
+		</div>
+
+	<nav>
+		<ul>
+			<li><a href="expo_collec.html">Exposition<br>collection</a></li>
+			<li><a href="espace_sc.html">Espace<br>scientifique</a></li>
+			<li><a href="space_peda.html">Espace<br>pédagogique</a></li>
+			<li><a href="billetterie.html">Billetterie</a></li>
+			<li><a href="compte.html">Compte<br>utilisateurs</a></li>
+			<li><a href="#soutenirMusee">Soutenir<br>le musée</a></li>
+			<li><form id="demo-2">
+				<input type="search" placeholder="Search">
+			</form></li>
+		</ul>
+	</nav>
+</header>
+
+<h1>Information de paiement</h1>
+
+<div class="formulaire">
+	<form method="post" action="traitement.php">
+	    <p>
+	       <input type="email" name="e-mail" id="e-mail" placeholder="Email" required size="34px" />
+
+	       <br />
+
+	       <input type="text" name="nom" id="nom" placeholder="Nom" required size="34px" />
+
+	       <input type="text" name="prenom" id="prenom" placeholder="Prénom" required size="34px" />
+
+	       <br>
+
+	       <input type="tel" name="telephone" id="telephone" placeholder="Numéro de téléphone" required size="34">
+
+	       <br>
+
+	       <input type="text" name="nCarte" id="nCarte" placeholder="Numéro de carte bancaire" required size="34px" />
+
+	       <br>
+
+	       <label for="validite">Date d'expiration :</label>
+
+	       <input type="month" name="validite" id="validite" required />
+
+	       <br>
+
+	       <label for="cryptogramme">Cryptogramme :</label>
+
+	       <input type="number" name="cryptogramme" id="cryptogramme" min="0" max="9"/>
+
+	    </p>
+	</form>
+</div>
+
+<div id="reception">
+	<h2>Récéption des documents de visite</h2>
+
+	<p>Vos billets vous seront envoyés par mails. Vous pourrez soit imprimer vos billets d'entrée à domicile, soit les présenter depuis votre smartphone via notre application sur nos contrôle d'accès. Nous vous remercions de forcer le rétro-éclairage, et de stopper la fonction "rotation automatique" de votre mobile.</p>
+</div>
+
+<div class="recap1">
+	<h2>Panier</h2>
+
+	<h3>Tickets</h3>
+
+	<table>
+		<tr>
+			<td width="150" height="40">Tarifs -12ans</td>
+			<td width="150" height="40">1 x 0€</td> 
+			<td width="150" height="40">0€</td>
+		</tr>
+
+		<tr>
+			<td width="150" height="40">Tarifs normal</td>
+			<td width="150" height="40">2 x 4.99€</td> 
+			<td width="150" height="40">9.98€</td>
+		</tr>
+	</table>
+</div>
+<div class="recap2">
+	<h2>Total : 9.98€</h2>
+
+	<a href="../index_musee.html">Valider</a>
+</div>
+
+<br>
+
+<div id="carte">
+	<img src="../images/logo/cartes.png" height="55px" id="carte">
+</div>
+
+<br>
+
+<div id="formalites">
+	<br><br>
+	<p>Afin de vous garantir une sécurisation optimale de lors de votre réservation, nous avons opté pour le système de paiement Systempay, un des plus fiables existant à ce jour. Les logos <img src="../images/photos/pictos-secu.png"> vous garantissent également que vous vous trouvez sur une page entièrement sécurisée. </p>
+</div>
+
+<footer>
+    <a href="#lg"><img src="../images/logo/blanc.png" height="100px"></a>
+
+    <div id="pictos">
+        <a href="https://facebook.com"><img src="../images/pictos/blanc/fb.png" height="50px;"></a>
+        <a href="https://tweeter.com"><img src="../images/pictos/blanc/tt.png" height="50px"></a>
+        <a href="https://instagram.com"><img src="../images/pictos/blanc/insta.png" height="50px"></a>
+        <a href="https://youtube.com"><img src="../images/pictos/blanc/yt.png" height="50px"></a>		
+    </div>
+
+    <br><br><br><br><br><br><br>
+
+    <p id="pdp">Musée Champollion - Les Écritures du Monde - Figeac - Lot</p>
+
+    <p>Mentions Légales - Crédits - Contact</p>
+</footer>
+</body>
+</html>

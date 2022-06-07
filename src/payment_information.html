@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/payment_information.css">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+	
+	<title>Information de paiement</title>
+</head>
+<body>
+<header>
+	<div id="lg">
+		<ul>
+			<li><a href="../index_musee.html">FR</a></li>
+			<li><a href="index_en.html">EN</a></li>
+		</ul>
+	</div>
+	
+	<div id="logo">
+		<a href="index_en.html"><img src="../images/logo/noir.png" height="150px">
+	</div>
+
+	<nav>
+		<ul>
+			<li><a href="">Exhibition<br>collection</a></li>
+			<li><a href="">Scientific<br>space</a></li>
+			<li><a href="">Pedagogical<br>space</a></li>
+			<li><a href="ticket_office.html">Ticket<br>office</a></li>
+			<li><a href="">User<br>account</a></li>
+			<li><a href="">Support<br>the museum</a></li>
+			<li><form id="demo-2">
+				<input type="search" placeholder="Search">
+			</form></li>
+		</ul>
+	</nav>
+</header>
+
+<h1>Payment information</h1>
+
+<div class="formulaire">
+	<form method="post" action="traitement.php">
+	    <p>
+	       <input type="email" name="e-mail" id="e-mail" placeholder="E-mail" required size="34px" />
+
+	       <br />
+
+	       <input type="text" name="nom" id="nom" placeholder="Last name" required size="34px" />
+
+	       <input type="text" name="prenom" id="prenom" placeholder="First name" required size="34px" />
+
+	       <br>
+
+	       <input type="tel" name="telephone" id="telephone" placeholder="Phone number" required size="34">
+
+	       <br>
+
+	       <input type="text" name="nCarte" id="nCarte" placeholder="Credit card number" required size="34px" />
+
+	       <br>
+
+	       <label for="validite">Expiration date</label>
+
+	       <input type="month" name="validite" id="validite" required />
+
+	       <br>
+
+	       <label for="cryptogramme">Cryptogram :</label>
+
+	       <input type="number" name="cryptogramme" id="cryptogramme" min="0" max="9" required/>
+	    </p>
+	</form>
+</div>
+
+<div id="reception">
+	<h2>Receipt of visit documents</h2>
+
+	<p>Your tickets will be sent to you by email. You can either print your entry tickets to your home, or present them from your smartphone via our application on our access control. Thank you for forcing the backlight, and for stopping the "automatic rotation" function of your mobile.</p>
+</div>
+
+<div class="recap1">
+	<h2>Basket</h2>
+
+	<h3>Tickets</h3>
+
+	<table>
+		<tr>
+			<td width="150" height="40">Prices -12 years</td>
+			<td width="150" height="40">1 x 0€</td> 
+			<td width="150" height="40">0€</td>
+		</tr>
+
+		<tr>
+			<td width="150" height="40">Normal Prices </td>
+			<td width="150" height="40">2 x 4.99€</td> 
+			<td width="150" height="40">9.98€</td>
+		</tr>
+	</table>
+</div>
+<div class="recap2">
+	<h2>Total : 9.98€</h2>
+
+	<a href="validation-en.html">Validate</a>
+</div>
+
+<br>
+
+<div id="carte">
+	<img src="../images/logo/cartes.png" height="55px" id="carte">
+</div>
+
+<br>
+
+<div id="formalites">
+	<br><br>
+	<p>In order to guarantee you optimal security during your reservation, we opted for the Systempay payment system, one of the most reliable system for now .the logos <img src="../images/photos/pictos-secu.png"> also guarantee that you are on a fully secure page.</p>
+</div>
+
+<footer>
+	<a href="#lg"><img src="../images/logo/blanc.png" height="100px"></a>
+	
+	<div id="pictos">
+		<a href="https://facebook.com"><img src="../images/pictos/blanc/fb.png" height="50px;"></a>
+		
+		<a href="https://tweeter.com"><img src="../images/pictos/blanc/tt.png" height="50px"></a>
+		
+		<a href="https://instagram.com"><img src="../images/pictos/blanc/insta.png" height="50px"></a>
+		
+		<a href="https://youtube.com"><img src="../images/pictos/blanc/yt.png" height="50px"></a>		
+	</div>
+	
+	<br><br><br><br><br><br><br>
+	
+	<p id="pdp">Champollion Museum - The Scriptures of the World - Figeac - Lot</p>
+	
+	<p>Legal notice - Credits - Contact</p>
+</footer>
+</body>
+</html>
